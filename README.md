@@ -1,7 +1,7 @@
 # Yveline's 1st projet - BATTLESHIP
 
 ## Link to the repo
-https://git.generalassemb.ly/yvln-ga/project1-battleship
+https://github.com/yvln/battleship
 
 ## Explanations of the technologies used
 - HTML : for the head of the document
