@@ -1,0 +1,206 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: 'Cabin Sketch', cursive;
+  background-image: url("../img/landpage-background.jpg");
+  background-size: cover;
+}
+
+  #landing-page {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 15px;
+  }
+
+      .instruc-land {
+        font-size: 18px;
+      }
+
+      #playersNames {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+      }
+
+        .playerNameInput {
+          flex:1;
+          font-size: 22px;
+        }
+
+      button {
+        font-family: 'Cabin Sketch', cursive;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: none;
+        font-size: 35px;
+        margin: 30px auto;
+      }
+
+  #contentGamePrep {
+    height: auto;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+      #title-land, #title-game-prep, #title-game {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+      }
+
+      .board {
+        height: 500px;
+        display: flex;
+      }
+
+          .boardGame1, .boardGame2 {
+            justify-content: center;
+          }
+
+            .grid {
+              width: 500px;
+              display: flex;
+              flex-direction: column;
+            }
+
+                .line {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                }
+
+                .to-hide {
+                  border: 1px solid rgba(153, 163, 180,0);
+                  border-top: none;
+                  border-left: none;
+                }
+
+                .first-line, .first-column {
+                  border: 1px solid rgb(153, 163, 180);
+                  background-color: rgba(198,205,205, .3);
+                }
+
+                .case-to-click {
+                  border: 1px solid rgb(153, 163, 180);
+                  background-color: rgba(198,205,205, .8);
+                }
+
+                    .case {
+                      width: 100%;
+                      height: 100%;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    }
+
+                        .touched {
+                          background-image: url("../img/touched.png");
+                          background-size: cover;
+                        }
+
+                        .splash {
+                          background-image: url("../img/splash.png");
+                          background-size: cover;
+                        }
+
+      .instruc-game-prep {
+        width: 100%;
+        padding-bottom: 20px;
+        font-size: 20px;
+      }
+
+      .instruc-game {
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+          #shipsToPlace {
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 5%;
+          }
+
+
+@media (max-width: 800px) {
+  #shipsToPlace {
+    font-size: 15px;
+  }
+  .board {
+    height: 400px;
+  }
+  .grid {
+    width: 400px;
+  }
+  #title-land, #title-game-prep, #title-game {
+    font-size: 28px;
+  }
+
+  #landing-page {
+    width: 80%;
+    padding: 20px;
+    }
+
+  button {
+    font-size: 28px;
+    width: 140px;
+    height: 140px;
+    margin: 25px auto;
+  }
+
+  .instruc-game-prep {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 580px) {
+
+  #landing-page {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    }
+
+  #title-land, #title-game-prep, #title-game {
+    font-size: 25px;
+  }
+
+  #contentGamePrep {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .grid {
+    width: 400px;
+    height: 400px;
+  }
+
+  #shipsToPlace {
+    display: none;
+  }
+
+  button {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+  }
+
+  .instruc-game-prep {
+    font-size: 15px;
+  }
+}
