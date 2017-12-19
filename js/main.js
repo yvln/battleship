@@ -378,8 +378,3 @@ $(document).ready(function() {
               }
 
 });
-
-
-// Obliger un placement de bateaux avec des cases consécutives
-// Ajouter des noms
-// Local Storage : compter le nombre de points en fonction des joueurs
